@@ -1,0 +1,7 @@
+export { Header } from './header'
+export { About } from './about'
+export { Projects } from './projects'
+export { Resume } from './resume'
+export { Gallery } from './gallery'
+export { Contact } from './contact'
+export { Footer } from './footer'

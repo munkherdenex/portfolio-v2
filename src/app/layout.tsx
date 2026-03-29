@@ -4,8 +4,8 @@ import { Header } from "@/components/sections/header";
 import { Footer } from "@/components/sections/footer";
 
 export const metadata: Metadata = {
-  title: "Portfolio | Software Developer",
-  description: "A modern portfolio showcasing my projects and skills",
+  title: "Munkh-Erdene | Developer",
+  description: "Portfolio of Munkh-Erdene - Developer building modern web applications",
 };
 
 export default function RootLayout({
@@ -14,8 +14,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className="bg-white">
+    <html lang="en" className="scroll-smooth">
+      <body className="bg-gradient-to-b from-slate-950 via-slate-900 to-slate-800 text-gray-100">
         <Header />
         {children}
         <Footer />
@@ -23,3 +23,4 @@ export default function RootLayout({
     </html>
   );
 }
+
