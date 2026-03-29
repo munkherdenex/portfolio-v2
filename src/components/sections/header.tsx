@@ -19,7 +19,7 @@ export function Header() {
     <header className="sticky top-0 z-50 w-full bg-slate-950/95 backdrop-blur-md border-b border-slate-800/50 shadow-xl">
       <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
         <Link href="/" className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent hover:from-blue-300 hover:to-cyan-300 transition-all">
-          Munkh
+          Munkh-Erdene
         </Link>
         
         {/* Desktop Navigation */}
